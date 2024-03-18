@@ -15,7 +15,7 @@ public class Main {
         new Thread(() -> {
             for (int i = 0; i < quantityTexts; i++) {
                 try {
-                    String someText = generateText("abc", 10_000);
+                    String someText = generateText("abc", 100_000);
                     forA.put(someText);
                     forB.put(someText);
                     forC.put(someText);
